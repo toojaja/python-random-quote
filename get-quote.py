@@ -1,4 +1,4 @@
-def main():
+def primary():
     print("What is it that I'm doing?")
 
     #f = open("quotes.txt")
@@ -9,4 +9,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    primary()
