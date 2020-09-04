@@ -1,11 +1,17 @@
+import random
+
+
 def primary():
-    print("What is it that I'm doing?")
+    print("This is a github tutorial.")
 
-    #f = open("quotes.txt")
-    #quotes = f.readlines()
-    # f.close()
+    f = open("quotes.txt", encoding="utf8")
+    quotes = f.readlines()
+    f.close()
 
-    # print(quotes)
+    last = 13
+    rnd = random.randint(0, last)
+
+    print(quotes[rnd])
 
 
 if __name__ == "__main__":
